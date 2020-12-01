@@ -1,0 +1,345 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    position:relative;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:500;
+}
+a:hover{
+    text-decoration:none;
+}
+p{
+    font-weight:500;
+}
+nav{
+    border-bottom:1px solid #4e596c;
+}
+.navbar{
+    padding:14px 0;
+}
+header{
+    background:#223047;
+    height:699px;
+
+}
+.nav-link{
+    color:#ffffff;
+    font-size:14px;
+}
+.nav-link:hover{
+    color:#ffffff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding:0;
+    padding:0 25px;
+}
+.header-button{
+    padding:12px 32px 16px 36px;
+    background:#00fff0;
+    border:1px solid #1c5565;
+    font-size:17px;
+    font-weight:500;
+    color:#233148; 
+    border-radius:10px;
+    margin-right:30px;
+    display: inline-block;
+}
+.header-button:hover{
+    text-decoration:none;
+    color:#233148;
+}
+.nav-right a i{
+    font-size:22px;
+    color:#ffffff;
+}
+.hero-text{
+    
+}
+.hearo-content{
+    padding-top:130px;
+}
+.hero-text h2{
+    font-size:45px;
+    color:#ffffff;
+    margin:0;
+    margin-bottom:55px;
+}
+.hero-text p{
+    font-size:13px;
+    margin:0;
+    margin-bottom:60px;
+    color:#97a4be;
+}
+.header-bottom-button a{
+    padding:11px 23px 17px 28px;
+    border-radius:10px;
+    font-size:13px;
+    font-weight:500;
+    display:inline-block;
+}
+.header-bottom-button .app1{
+    margin-right:23px;
+    background:#19ebe9;
+    color:#233148;
+}
+.header-bottom-button .app1:hover{
+    margin-right:23px;
+    background:transparent;
+    border:1px solid #ffffff;
+    color:#ffffff;
+    transition:0.7s;
+}
+.header-bottom-button .app2{
+    border:1px solid #ffffff;
+    color:#ffffff;
+}
+.header-bottom-button .app2:hover{
+    background:#19ebe9;
+    color:#233148;
+    border:none;
+    transition:0.7s;
+}
+/* brand online */
+
+#brand-online{
+    padding:208px 0 114px 0;
+    position:relative;
+}
+#brand-online h3{
+    margin:0;
+    margin-bottom:80px;
+}
+hr{
+    width:100px;
+    height:4px;
+    margin:auto;
+    background: #00fff0;
+    margin-bottom:70px;
+}
+#brand-online .card{
+    border:none;
+    padding:42px 22px 35px 22px;
+    box-shadow: 1px 1.732px 5px 4px rgba( 30, 43, 63, 0.1);
+}
+#brand-online .card i{
+    font-size:70px;
+    display:inline-block;
+    margin:auto;
+    margin-bottom:50px;
+    background:#233148;
+    color:#ffffff;
+    width:100px;
+    height:100px;
+    text-align:center;
+    border-radius:50%;
+    line-height:1.5;  
+}
+#brand-online .card:hover{
+    background-color: rgb( 0, 255, 240 );
+    box-shadow: 4px 6.928px 24px 0px rgb( 0, 255, 241 );
+    transition:0.7s;
+}
+#brand-online .card:hover i{
+    transform:rotate(360deg);
+    transition:0.7s;
+}
+#brand-online .card h4{
+    font-size:17px;
+    margin:0;
+    margin-bottom:30px;
+}
+#brand-online .card p{
+    font-size:14px;
+    margin:0;
+    line-height:2.5;
+}
+.code-text{
+    padding:137px 122px;
+    background:#f5f6fa;
+}
+.code-text h4{
+    font-size:30px;
+}
+.code-text p{
+    font-size:14px;
+}
+.hroros{
+    background:#233148;
+    height:100%;
+    width:100%;
+}
+#codepen{
+    padding:123px 0 137px 0;
+}
+#codepen h3{
+    font-size:30px;
+    margin:0;
+    margin-bottom:59px;
+}
+#codepen p{
+    font-size:14px;
+    margin:0;
+    margin-bottom:48px;
+}
+#codepen a{
+    padding:16px 24px 20px 38px;
+    background:#00fff0;
+    display:inline-block;
+    color:#233148;
+    border-radius:10px;
+}
+#mobile .card{
+    border:0;
+    box-shadow: 2px 3.464px 10px 0px rgba( 35, 39, 51, 0.1);
+    color:#233148
+}
+#mobile .card:hover{
+    background-color: rgb( 0, 255, 240 );
+    box-shadow: 4px 6.928px 24px 0px rgb( 0, 255, 241 );
+    transition:0.7s;
+}
+#mobile .card .icon i{
+    font-size:30px;
+}
+#mobile .card .icon h4{
+    font-size:17px;
+}
+
+#choice{
+    padding:143px 0 100px 0;
+    margin-top:-80px;
+}
+#choice h4{
+    margin:0;
+    font-size:30px;
+    margin-bottom:50px;
+}
+#choice p{
+    margin:0;
+    margin-top:45px;
+    font-size:14px;
+}
+.check-box span i{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    font-size:12px;
+    background:#00fff0;
+    text-align:center;
+    line-height:1.6;
+    border-radius:50px;
+    margin:5px;
+}
+.video{
+    padding:120px 0;
+    background:#223047;
+    color:#ffffff;
+}
+.video .icon a{width:50px; height:50px; text-align:center; background:#00fff0;line-height:2.5; display:inline-block;border-radius:50%;font-size:20px;}
+.fa-play{
+    margin-left:5px;
+    color:#233148;
+}
+.video .video-text h4{
+    margin:0;
+    margin:30px 0 47px 0;
+    font-size:17px;
+}
+.video .video-text p{margin:0;font-size:14px;}
+#download{
+    padding:200px 0;
+    text-align:center;
+}
+#download h4{
+    margin:0;
+    margin-bottom:30px;
+}
+#download p{
+    margin:0;
+    margin-bottom:50px;
+}
+#download a{
+    display:inline-block;
+    padding:15px 42px 21px 49px;
+    background:#00fff0;
+    color:#233148;
+}
+.download-text a:hover{
+    box-shadow: 4px 6.928px 24px 0px rgb( 0, 255, 241 );
+}
+#store{
+    padding-top:80px;
+    background:#f4f6fa;
+}
+#store .store-content h4{
+    margin:0;
+    font-size:40px;
+}
+#store .store-content p{
+    margin:0;
+    margin:36px 0;
+    font-size:17px;
+    color:#97a4be;
+}
+.google-play{
+    margin-right:28px;
+}
+.footer-up{
+    margin-top:62px;
+}
+.footer-up a{
+    padding:28px 114px 28px 121px;
+    background:#00fff0;
+    color:#233148;
+}
+.footer-up a:hover{
+    box-shadow: 4px 6.928px 24px 0px rgb( 0, 255, 241 );
+}
+footer{
+    padding:80px 0;
+}
+.subcreibe{
+    padding:14px 36px 21px 46px;
+    background:#00fff0;
+    box-shadow: 4px 6.928px 24px 0px rgb( 0, 255, 241 );
+}
+.form-control{
+    padding:18px;
+}
+.footer-bottom{
+    padding:40px 0;
+    background:#223047;
+    color:#ffffff;
+
+}
+.social-link a{
+    display:inline-block;
+    padding:20px;
+    color:#ffffff;
+    font-size:20px;
+    line-height:1;
+}
+#particles-js {
+    position:relative;
+}
+  #ruhit{
+      background:url(../img/background.jpg) no-repeat;
+      background-size:cover;
+      text-align:center;
+      color:#ffffff;
+  }
+  .sites-make{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,150%);
+  }
+  .sites-make h2{
+    font-size:50px;
+  }
+
